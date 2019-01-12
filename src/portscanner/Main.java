@@ -11,6 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("portscanner.fxml"));
+        System.out.println(root);
         Controller controller = new Controller();
         FXMLLoader loader = new FXMLLoader();
         loader.setController(controller);
