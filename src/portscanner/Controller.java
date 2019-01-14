@@ -8,10 +8,10 @@ import java.io.DataOutputStream;
 import java.net.Socket;
 
 public class Controller {
-    @FXML private TextField hostValue;
-    @FXML private TextField startingPortValue;
-    @FXML private TextField endingPortValue;
-    @FXML private TextArea scanResultsValues;
+    @FXML public TextField hostValue;
+    @FXML public TextField startingPortValue;
+    @FXML public TextField endingPortValue;
+    @FXML public TextArea scanResultsValues;
 
     @FXML
     public void startScan(Event e) {
